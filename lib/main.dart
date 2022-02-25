@@ -4,24 +4,16 @@ import "announcment.dart";
 import "about_us.dart";
 import 'package:http/http.dart' as http;
 import 'dart:async';
-
 void main() {
-  runApp(MyApp());
-}
-
+  runApp(MyApp());}
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-      body: Homepage(),
-    ));
-  }
-}
-
+      body: Homepage(),));}}
 class Homepage extends StatelessWidget {
   var menu_name_style = TextStyle(color: Colors.white, fontSize: 17);
-
   @override
   Widget build(BuildContext context) {
     return ListView(
@@ -43,11 +35,4 @@ class Homepage extends StatelessWidget {
           children: [
             Store(),
             Announcement(),
-            About_us()
-          ],
-        )
-        )
-      ],
-    );
-  }
-}
+            About_us()],))],);}}
